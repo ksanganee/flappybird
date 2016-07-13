@@ -1,0 +1,49 @@
+h1{
+  color: darkred;
+  font-size: 96px;
+  font-style: Impact;
+  font-family: Impact, Charcoal, sans-serif
+}
+
+h2{
+  color: orange;
+  font-size: 48px;
+  font-style: Impact;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+h3{
+  color: black;
+  font-size: 32px;
+  font-style: Impact;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+h4{
+  color: yellow;
+  font-size: 30px
+}
+
+
+
+.heading{
+  color: red
+}
+
+.first{
+  color: gold
+}
+
+.second{
+  color: silver
+}
+
+.third{
+  color: #8c7853
+}
+
+.imagecentered{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
