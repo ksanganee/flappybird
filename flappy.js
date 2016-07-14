@@ -18,6 +18,7 @@ var gapMargin = 50;
 var blockHeight = 40;
 var splashDisplay;
 var pipespeed = -450;
+var pipedistance = 2;
 
 var easyTag;
 var mediumTag;
@@ -88,7 +89,7 @@ function start() {
 }
 
 function begingame() {
-  var pipeInterval = 1.5 * Phaser.Timer.SECOND;
+  var pipeInterval = pipedistance * Phaser.Timer.SECOND;
   game.time.events.loop(
     pipeInterval,
     generatePipe
