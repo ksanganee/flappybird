@@ -25,29 +25,28 @@ var hardTag;
 
 
 
-
 var easyMode = {
   pipespeed: -200,
   gameGravity: 500,
-  jumpPower: -250,
+  jumpPower: -300,
   gapSize: 150,
   gapMargin: 50,
 };
 
 
 var mediumMode = {
-  pipespeed : -450,
+  pipespeed : -400,
   gameGravity : 625,
-  jumpPower : -200,
-  gapSize : 105,
+  jumpPower : -250,
+  gapSize : 150,
   gapMargin : 100,
 };
 
 var hardMode = {
   pipespeed : -700,
   gameGravity : 750,
-  jumpPower : -150,
-  gapSize : 80,
+  jumpPower : -200,
+  gapSize : 150,
   gapMargin : 100,
 };
 
@@ -184,19 +183,19 @@ function create() {
   easyTag.height=50;
   easyTag.width=50;
     game.physics.arcade.enable(easyTag);
-    easyTag.body.velocity.x = -40;
+    easyTag.body.velocity.x = -60;
 
   mediumTag = game.add.sprite(350, 200, "mediumbutton");
   mediumTag.width=50;
   mediumTag.height=50;
     game.physics.arcade.enable(mediumTag);
-    mediumTag.body.velocity.x = -40;
+    mediumTag.body.velocity.x = -60;
 
   hardTag = game.add.sprite(350, 300, "hardbutton");
   hardTag.width=50;
   hardTag.height=50;
     game.physics.arcade.enable(hardTag);
-    hardTag.body.velocity.x = -40;
+    hardTag.body.velocity.x = -60;
 
 
 
